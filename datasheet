@@ -1375,7 +1375,7 @@
             ],
             "url": "https:\/\/www.instagram.com",
             "interval": "3m",
-            "tolerance": 1000
+            "tolerance": 10
         },
         {
             "tag": "direct",
