@@ -17648,7 +17648,7 @@
     "route": {
         "auto_detect_interface": true,
         "override_android_vpn": true,
-        "final": "proxy",
+        "final": "URL-TEST",
         "rules": [
             {
                 "outbound": "dns-out",
