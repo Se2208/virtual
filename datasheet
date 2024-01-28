@@ -1362,8 +1362,9 @@
                 "🇺🇸US | vless | @TIKTOK_PROXY | 2"
             ],
             "url": "https:\/\/m.youtube.com",
-            "interval": "10m",
-            "tolerance": 1500,
+            "interval": "2m",
+            "tolerance": 20,
+            "idle_timeout": "2",
            "interrupt_exist_connections": true
         },
         {
