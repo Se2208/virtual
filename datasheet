@@ -6,7 +6,7 @@
 
 {
     "log": {
-        "disabled": false,
+        "disabled": true,
         "level": "fatal",
         "timestamp": true
     },
@@ -1363,7 +1363,9 @@
             ],
             "url": "https:\/\/m.youtube.com",
             "interval": "10m",
-            "tolerance": 30
+            "tolerance": 1500,
+           "idle_timeout": "10m",
+           "interrupt_exist_connections": true
         },
         {
             "tag": "direct",
