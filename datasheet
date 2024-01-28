@@ -13,13 +13,13 @@
     "dns": {
         "servers": [
             {
-                "address": "8.8.8.8",
+                "address": "1.1.1.1",
                 "address_resolver": "dns-direct",
                 "strategy": "ipv4_only",
                 "tag": "dns-remote"
             },
             {
-                "address": "tcp:\/\/8.8.8.8",
+                "address": "8.8.8.8",
                 "address_resolver": "dns-local",
                 "detour": "direct",
                 "strategy": "ipv4_only",
@@ -40,16 +40,16 @@
                 "domain_suffix": [
                     ".ir"
                 ],
-                "server": "dns-direct"
+                "server": "dns-local"
             },
             {
                 "outbound": "direct",
-                "server": "dns-direct",
+                "server": "dns-local",
                 "rewrite_ttl": 20
             },
             {
                 "outbound": "any",
-                "server": "dns-direct",
+                "server": "dns-local",
                 "rewrite_ttl": 20
             }
         ],
@@ -1363,7 +1363,7 @@
             ],
             "url": "https:\/\/m.youtube.com",
             "interval": "10m",
-            "tolerance": 500
+            "tolerance": 30
         },
         {
             "tag": "direct",
@@ -17679,18 +17679,6 @@
                     "ir"
                 ],
                 "outbound": "direct"
-            },
-            {
-                "geosite": [
-                    "other"
-                ],
-                "outbound": "direct"
-            },
-            {
-                "geosite": [
-                    "ads"
-                ],
-                "outbound": "block"
             },
             {
                 "ip_cidr": [
