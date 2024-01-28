@@ -1359,7 +1359,7 @@
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 1",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 2"
             ],
-            "url": "https:\/\/www.github.com",
+            "url": "https:\/\/speed.cloudflare.com\/__down?bytes=10485760",
             "interval": "10m",
             "tolerance": 20,
            "interrupt_exist_connections": true
