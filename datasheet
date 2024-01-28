@@ -1364,7 +1364,7 @@
             "url": "https:\/\/m.youtube.com",
             "interval": "2m",
             "tolerance": 20,
-            "idle_timeout": "2",
+            "idle_timeout": "2m",
            "interrupt_exist_connections": true
         },
         {
