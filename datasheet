@@ -69,19 +69,18 @@
         {
             "type": "tun",
             "tag": "tun-in",
-            "domain_strategy": "",
             "interface_name": "tun0",
             "inet4_address": "172.19.0.1\/30",
             "mtu": 9000,
             "auto_route": true,
             "strict_route": true,
-            "stack": "system",
+           "udp_timeout": "5s",
+            "stack": "mixed",
             "endpoint_independent_nat": true,
             "sniff": true,
             "sniff_override_destination": false
         },
         {
-            "domain_strategy": "",
             "listen": "0.0.0.0",
             "listen_port": 2080,
             "sniff": true,
@@ -1362,9 +1361,8 @@
                 "🇺🇸US | vless | @TIKTOK_PROXY | 2"
             ],
             "url": "https:\/\/m.youtube.com",
-            "interval": "2m",
+            "interval": "5m",
             "tolerance": 20,
-            "idle_timeout": "2m",
            "interrupt_exist_connections": true
         },
         {
