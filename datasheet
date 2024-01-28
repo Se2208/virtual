@@ -74,8 +74,7 @@
             "mtu": 9000,
             "auto_route": true,
             "strict_route": true,
-           "udp_timeout": "5s",
-            "stack": "mixed",
+            "stack": "system",
             "endpoint_independent_nat": true,
             "sniff": true,
             "sniff_override_destination": false
