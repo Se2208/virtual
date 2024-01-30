@@ -1346,7 +1346,7 @@
             ],
            "url": "https:\/\/speed.cloudflare.com\/__down?bytes=200760",
             "interval": "10m",
-            "tolerance": 20,
+            "tolerance": 1500,
            "interrupt_exist_connections": true
         },
         {
